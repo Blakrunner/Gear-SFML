@@ -389,7 +389,7 @@ void Gear::updateSecondGearColor()
 {
     for(std::size_t i = 0; i < m_vertices.at("gear2nd").getVertexCount(); ++i)
         m_vertices.at("gear2nd")[i].color = m_fillColor2nd;
-    m_vertices.at("gear2nd")[0].color = m_highlightColor;
+
 }
 
 void Gear::translatePart(const std::string part, sf::Vector2f pos)
